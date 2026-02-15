@@ -6,6 +6,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  background: var(--brand);
+  color: var(--black);
 }
 
 html {
@@ -476,7 +482,6 @@ textarea:-webkit-autofill:focus {
   color: var(--white-2);
   transition: var(--transition);
   user-select: none;
-  -webkit-tap-highlight-color: transparent;
 }
 
 .menu-link:hover {
@@ -527,7 +532,6 @@ textarea:-webkit-autofill:focus {
   border-radius: 16px;
   line-height: 100%;
   user-select: none;
-  -webkit-tap-highlight-color: transparent;
   border: var(--border);
   cursor: pointer;
 }
