@@ -18,8 +18,9 @@ html {
   --brand: #f60900;
   --white-2: #bebebe;
   --white-3: #919191;
+  --white-4: #616161;
   --black-2: #141414;
-  --black-3:#343434;
+  --black-3: #343434;
   --font-family: "Space Grotesk", sans-serif;
   --radius: 22px;
   --squircle: squircle;
@@ -35,7 +36,7 @@ html {
   --padding-2: 3rem 1rem;
   --text-transform: uppercase;
   --transition: all 0.6s ease;
-  --border: 1px solid #1c1c1c;
+  --border: 1px solid #292929;
 }
 /* -------------global-setting-end------------- */
 
@@ -145,7 +146,6 @@ body {
   font-size: var(--head-4);
   color: var(--white-2);
   text-transform: capitalize;
-
 }
 
 .service-list {
@@ -181,7 +181,7 @@ body {
 .social-links-list {
   font-size: var(--body-small);
   text-decoration: none;
-  color: var(--white-2);
+  color: var(--white-3);
   text-transform: uppercase;
   transition: var(--transition);
 }
@@ -192,57 +192,54 @@ body {
 
 /* content-end */
 
-
 /* ⭐ services-page */
 
-.services-hero{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 100%;
+.services-hero {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
 }
 
-.heading-main{
-    font-size: var(--head-3);
-    text-transform: capitalize;
-
+.heading-main {
+  font-size: var(--head-3);
+  text-transform: capitalize;
 }
 
-.service-grid{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-
+.service-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.service-card{
-    display: flex;
-    flex-direction: column;
-    background: var(--black-2);
-    border-radius: var(--radius);
-    padding: 10px;
-    width: 100%;
-    flex-grow: 1;
-    gap: 32px;
-    justify-content: space-between;
+.service-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--black-2);
+  border-radius: var(--radius);
+  padding: 10px;
+  width: 100%;
+  flex-grow: 1;
+  gap: 32px;
+  justify-content: space-between;
 }
 
-.service-icon{
-    display: inline-block;
-    padding: 5px;
-    background-color: #550701;
-    border-radius: 12px;
-    width: 10%;
+.service-icon {
+  display: inline-block;
+  padding: 5px;
+  background-color: #550701;
+  border-radius: 12px;
+  width: 10%;
 }
 
-.service-name-2{
-    font-size: var(--body-small);
-    font-weight: 400;
-    color: var(--white-3);
+.service-name-2 {
+  font-size: var(--body-small);
+  font-weight: 400;
+  color: var(--white-3);
 }
 
-.book-service{
+.book-service {
   display: inline-block;
   width: 100%;
   text-decoration: none;
@@ -255,38 +252,33 @@ body {
   padding: 0.6rem;
   border-radius: 14px;
   transition: all 0.5s ease 0s;
-  
 }
 
-.book-service:hover{
+.book-service:hover {
   background: #d50700;
-
 }
-
-
 
 /* ------contact page------- */
 
-.contact-form{
+.contact-form {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 100%;
 }
 
-
-.contact-form input , textarea{
-  width: 100% ;
+.contact-form input,
+textarea {
+  width: 100%;
   color: var(--white-2);
   font-family: var(--font-family);
   font-size: var(--body-small);
 
   background: var(--black-2);
-  border: var(--border);
+  border: 1px solid #151515;
   padding: 12px;
   border-radius: 14px;
   outline: none;
-
 }
 
 .contact-form input:focus,
@@ -295,20 +287,18 @@ select:focus {
   border: 1px solid var(--black-3);
 }
 
-
 .contact-form input::placeholder,
 textarea::placeholder {
-  color: var(--white-3);
+  color: var(--white-4);
   text-transform: capitalize;
 }
-
 
 .contact-form textarea {
   resize: vertical;
   min-height: 150px;
 }
 
-.submit-btn{
+.submit-btn {
   outline: none;
   border: none;
   display: inline-block;
@@ -325,12 +315,10 @@ textarea::placeholder {
   border-radius: 14px;
   transition: all 0.5s ease 0s;
   cursor: pointer;
-
 }
 
-.submit-btn:hover{
+.submit-btn:hover {
   background: #d50700;
-
 }
 
 /* Chrome / Edge autofill fix */
@@ -341,15 +329,59 @@ textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover,
 textarea:-webkit-autofill:focus {
   -webkit-text-fill-color: var(--black);
-  caret-color:var(--black);
+  caret-color: var(--black);
 
   box-shadow: 0 0 0 1000px var(--white-2) inset !important;
   -webkit-box-shadow: 0 0 0 1000px var(--white-2) inset !important;
   transition: background-color 9999s ease-in-out 0s;
 }
 
+/* -------projects-page------ */
+.project-heading {
+  padding-top: 1rem;
+}
+.project-grid {
+  padding-bottom: 3rem;
+}
 
+.project-img {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid var(--white-4);
+}
 
+.project-about {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items: end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-name {
+  font-size: var(--body-small);
+  text-transform: capitalize;
+  font-weight: 400;
+  flex-grow: 1;
+  width: 60%;
+}
+
+.project-link {
+  display: flex;
+  width: 8%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
+  margin: 0;
+  border-radius: 12px;
+  background: #550701;
+}
+
+.link-icon {
+  width: 100%;
+}
 
 /* menu-start */
 .nav-menu {
@@ -384,7 +416,7 @@ textarea:-webkit-autofill:focus {
   font-size: 3rem;
   font-weight: 700;
   text-transform: var(--text-transform);
-  transform-origin:left center;
+  transform-origin: left center;
   animation: fadeIn 0.5s ease both;
   user-select: none;
   line-height: var(--line-height);
@@ -393,7 +425,7 @@ textarea:-webkit-autofill:focus {
 
 .nav-page-name.animate {
   animation: fadeIn1 0.5s ease forwards;
-  transform-origin:left center;
+  transform-origin: left center;
 }
 
 @keyframes fadeIn1 {
@@ -444,6 +476,7 @@ textarea:-webkit-autofill:focus {
   color: var(--white-2);
   transition: var(--transition);
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .menu-link:hover {
@@ -487,11 +520,14 @@ textarea:-webkit-autofill:focus {
 .close-menu {
   background: var(--black);
   font-size: var(--body-small);
+  text-align: center;
   color: var(--brand);
   text-transform: var(--text-transform);
   padding: 8px 12px;
   border-radius: 16px;
+  line-height: 100%;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
   border: var(--border);
   cursor: pointer;
 }
@@ -514,23 +550,15 @@ textarea:-webkit-autofill:focus {
     width: 60%;
   }
 
-  .service-icon{
-    
+  .service-icon {
     width: 8%;
-}
-
-
-
-
-
+  }
 
   .nav-menu {
     display: none;
   }
 
-
   /* ⭐ services-page */
-
 }
 
 /* ------desktop------- */
@@ -541,7 +569,9 @@ textarea:-webkit-autofill:focus {
     flex-direction: row;
   }
 
-
+  .arshid {
+    width: 10%;
+  }
 
   .content {
     width: 30%;
@@ -562,22 +592,20 @@ textarea:-webkit-autofill:focus {
     padding: 1rem;
   }
 
-
-
   /* ⭐ services-page */
 
-
-.service-card{
+  .service-card {
     width: 45%;
-}
+  }
 
-
-.service-icon{
-   
+  .service-icon {
     width: 16%;
+  }
+
+  /* -----project-page---- */
+
+  .project-link {
+    display: flex;
+    width: 12%;
+  }
 }
-
-
-}
-
-
