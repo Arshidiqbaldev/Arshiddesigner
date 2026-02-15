@@ -123,7 +123,7 @@ body {
 
 .tagline {
   font-size: var(--head-4);
-  text-transform: var(--text-transform);
+
   line-height: var(--line-height);
   color: var(--white-2);
 }
@@ -142,7 +142,8 @@ body {
 
 .head-2 {
   font-size: var(--head-4);
-  text-transform: var(--text-transform);
+  color: var(--white-2);
+
 }
 
 .service-list {
@@ -201,7 +202,7 @@ body {
 
 .heading-main{
     font-size: var(--head-3);
-    text-transform: var(--text-transform);
+
 }
 
 .service-grid{
@@ -304,7 +305,7 @@ body {
 }
 
 .nav-page-name.animate {
-  animation: fadeIn1 0.8s ease forwards;
+  animation: fadeIn1 0.5s ease forwards;
   transform-origin:left center;
 }
 
@@ -442,6 +443,8 @@ body {
     display: flex;
     flex-direction: row;
   }
+
+
 
   .content {
     width: 30%;
