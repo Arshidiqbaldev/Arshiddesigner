@@ -233,7 +233,7 @@ body {
     padding: 5px;
     background-color: #550701;
     border-radius: 12px;
-    width: 12%;
+    width: 10%;
 }
 
 .service-name-2{
@@ -340,11 +340,11 @@ input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover,
 textarea:-webkit-autofill:focus {
-  -webkit-text-fill-color: var(--white-2);
-  caret-color:var(--white-2);
+  -webkit-text-fill-color: var(--black);
+  caret-color:var(--black);
 
-  box-shadow: 0 0 0 1000px var(--black-3) inset !important;
-  -webkit-box-shadow: 0 0 0 1000px var(--black-3) inset !important;
+  box-shadow: 0 0 0 1000px var(--white-2) inset !important;
+  -webkit-box-shadow: 0 0 0 1000px var(--white-2) inset !important;
   transition: background-color 9999s ease-in-out 0s;
 }
 
@@ -516,7 +516,7 @@ textarea:-webkit-autofill:focus {
 
   .service-icon{
     
-    width: 5%;
+    width: 8%;
 }
 
 
