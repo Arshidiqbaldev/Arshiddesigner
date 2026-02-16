@@ -403,12 +403,11 @@ textarea:-webkit-autofill:focus {
 
 .menu-name {
   display: block;
-  background: var(--black-2);
   width: 100%;
-  font-size: var(--body-small);
+  font-size: var(--body-text);
   text-align: end;
   text-transform: var(--text-transform);
-  color: var(--brand);
+  color: var(--white);
 }
 
 .menu-list {
