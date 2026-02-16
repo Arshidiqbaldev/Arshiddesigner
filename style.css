@@ -613,3 +613,11 @@ textarea:-webkit-autofill:focus {
     width: 12%;
   }
 }
+
+/* -----wide-screen---- */
+
+@media (min-width: 1930px) {
+  .content {
+    width: 22%;
+  }
+}
