@@ -1,6 +1,6 @@
 // Grab elements by ID
-const menu  = document.getElementById('mob-menu');   // the menu
-const open  = document.getElementById('openBtn');    // open button
+const menu = document.getElementById('mob-menu');   // the menu
+const open = document.getElementById('openBtn');    // open button
 const close = document.getElementById('closeBtn');   // close button
 
 // Open menu: add "open" class
@@ -16,7 +16,7 @@ close.addEventListener('click', () => {
 
 // animate
 
-    const navLinks = document.querySelectorAll('.nav-page-name');
+const navLinks = document.querySelectorAll('.nav-page-name');
 
 open.addEventListener('click', () => {
   menu.classList.add('open');
