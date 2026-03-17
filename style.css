@@ -528,9 +528,9 @@ textarea:-webkit-autofill:focus {
   text-align: center;
   color: var(--brand);
   text-transform: var(--text-transform);
-  padding: 14px 12px;
+  padding: 10px 12px;
   border-radius: 16px;
-  line-height: 0;
+  line-height: 100%;
   user-select: none;
   border: var(--border);
   cursor: pointer;
