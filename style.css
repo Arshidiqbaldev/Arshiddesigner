@@ -476,9 +476,7 @@ textarea:-webkit-autofill:focus {
   animation-delay: 500ms;
 }
 
-.nav-page-name:nth-child(6) {
-  animation-delay: 600ms;
-}
+
 
 
 .menu-link {
