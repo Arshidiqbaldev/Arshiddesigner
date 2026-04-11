@@ -447,12 +447,12 @@ textarea:-webkit-autofill:focus {
 
 @keyframes fadeIn {
   from {
-    transform: translateY(20px) scale(1.04);
+    transform: translateX(20px) scale(1.04);
 
     opacity: 0;
   }
   to {
-    transform: translateY(0) scale(1);
+    transform: translateX(0) scale(1);
     opacity: 1;
   }
 }
