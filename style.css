@@ -436,24 +436,23 @@ textarea:-webkit-autofill:focus {
 
 @keyframes fadeIn1 {
   from {
-    transform: translateX(40px) scale(0);
-    opacity: 0;
+    transform: translateX(10px) scale(1.05);
+
   }
   to {
     transform: translateX(0) scale(1);
-    opacity: 1;
+   
   }
 }
 
 @keyframes fadeIn {
   from {
-    transform: translateY(60px) scale(0.5);
-
-    opacity: 0;
+    transform: translateY(10px) scale(1.05);
+    
   }
   to {
     transform: translateY(0) scale(1);
-    opacity: 1;
+    
   }
 }
 
@@ -476,6 +475,11 @@ textarea:-webkit-autofill:focus {
 .nav-page-name:nth-child(5) {
   animation-delay: 500ms;
 }
+
+.nav-page-name:nth-child(5) {
+  animation-delay: 600ms;
+}
+
 
 .menu-link {
   text-decoration: none;
