@@ -423,20 +423,20 @@ textarea:-webkit-autofill:focus {
   font-weight: 700;
   text-transform: var(--text-transform);
   transform-origin: left center;
-  animation: fadeIn 0.5s ease both;
+  animation: fadeIn 0.3s ease both;
   user-select: none;
   line-height: var(--line-height);
   opacity: 0;
 }
 
 .nav-page-name.animate {
-  animation: fadeIn1 0.5s ease forwards;
+  animation: fadeIn1 0.3s ease forwards;
   transform-origin: left center;
 }
 
 @keyframes fadeIn1 {
   from {
-    transform: translateX(20px) scale(1.04);
+    transform: translateX(20px) scale(1.06);
     opacity: 0;
   }
   to {
@@ -447,7 +447,7 @@ textarea:-webkit-autofill:focus {
 
 @keyframes fadeIn {
   from {
-    transform: translateX(20px) scale(1.04);
+    transform: translateX(20px) scale(1.06);
 
     opacity: 0;
   }
@@ -458,27 +458,27 @@ textarea:-webkit-autofill:focus {
 }
 
 .nav-page-name:nth-child(1) {
-  animation-delay: 100ms;
+  animation-delay: 50ms;
 }
 
 .nav-page-name:nth-child(2) {
-  animation-delay: 200ms;
+  animation-delay: 100ms;
 }
 
 .nav-page-name:nth-child(3) {
-  animation-delay: 300ms;
+  animation-delay: 150ms;
 }
 
 .nav-page-name:nth-child(4) {
-  animation-delay: 400ms;
+  animation-delay: 200ms;
 }
 
 .nav-page-name:nth-child(5) {
-  animation-delay: 500ms;
+  animation-delay: 250ms;
 }
 
 .nav-page-name:nth-child(6) {
-  animation-delay: 600ms;
+  animation-delay: 300ms;
 }
 
 
