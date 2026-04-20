@@ -438,23 +438,23 @@ textarea:-webkit-autofill:focus {
 
 @keyframes fadeIn1 {
   from {
-    transform: translateX(20px) scale(1.2);
+    transform: translateY(10px) scale(1.2);
     opacity: 0;
   }
   to {
-    transform: translateX(0) scale(1);
+    transform: translateY(0) scale(1);
     opacity: 1;
   }
 }
 
 @keyframes fadeIn {
   from {
-    transform: translateX(20px) scale(1.2);
+    transform: translateY(10px) scale(1.2);
 
     opacity: 0;
   }
   to {
-    transform: translateX(0) scale(1);
+    transform: translateY(0) scale(1);
     opacity: 1;
   }
 }
