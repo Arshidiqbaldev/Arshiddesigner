@@ -182,7 +182,6 @@ body {
 
 .mob-menu {
   position: fixed;
-  
   left: 0;
   bottom: -110%;
   width: 100%;
@@ -193,7 +192,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: var(--padding-2);
-  transition-duration: 0.8s;
+  transition-duration: 1.2s;
   z-index: 99;
   
 }
