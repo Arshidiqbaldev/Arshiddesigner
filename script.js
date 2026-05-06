@@ -1,29 +1,103 @@
-// Grab elements by ID
-const menu = document.getElementById('mob-menu');   // the menu
-const open = document.getElementById('openBtn');    // open button
-const close = document.getElementById('closeBtn');   // close button
+let root = document.documentElement;
+let lightMode = document.getElementById("lightBtn");
+let darkMode = document.getElementById("darkBtn");
 
-// Open menu: add "open" class
-open.addEventListener('click', () => {
-  menu.classList.add('open');
+
+
+let themes = {
+    dark: {
+        "--brand": "#f60900",
+        "--brand-2": "#940200",
+        "--bg-1": "#161515",
+        "--bg-2": "#1d1b1b",
+        "--color-1": "#cecece",
+        "--color-2": "#a0a0a0",
+        "--border-color": "#262626"
+    },
+    light: {
+        "--brand": "#f60900",
+        "--brand-2": "#940200",
+        "--bg-1": "#f7f0ef",
+        "--bg-2": "#ebe2e2",
+        "--color-1": "#252323",
+        "--color-2": "#4d4d4d",
+        "--border-color": "#dadada"
+    },
+};
+
+function applyTheme(name) {
+
+    let theme = themes[name];
+
+    for (let key in theme) {
+        root.style.setProperty(key, theme[key]);
+
+    };
+
+}
+
+
+
+function setTheme(mode) {
+    if (mode === "system") {
+        let isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+
+        if (isDark) {
+            applyTheme("dark");
+
+
+        } else {
+            applyTheme("light");
+        }
+
+    }
+    else {
+        applyTheme("mode");
+    }
+}
+
+setTheme("system");
+
+
+
+lightMode.addEventListener("click", () => {
+    applyTheme("light");
+    lightMode.classList.add("active");
+    setTimeout(() => {
+        darkMode.classList.remove("active");
+
+
+    }, 500);
 });
 
-// Close menu: remove "open" class
-close.addEventListener('click', () => {
-  menu.classList.remove('open');
+darkMode.addEventListener("click", () => {
+    applyTheme("dark");
+    darkMode.classList.add("active");
+    setTimeout(() => {
+        lightMode.classList.remove("active");
+
+    }, 500);
+
 });
 
 
-// animate
+const menuOpen = document.querySelector(".menu-open");
+const menuClose = document.querySelector(".menu-close");
+const mobMenu = document.getElementById("mob-menu")
 
-const navLinks = document.querySelectorAll('.nav-page-name');
 
-open.addEventListener('click', () => {
-  menu.classList.add('open');
-  navLinks.forEach(link => link.classList.add('animate'));
+menuOpen.addEventListener("click", ()=>{
+    mobMenu.classList.toggle("open-menu")
 });
 
-close.addEventListener('click', () => {
-  menu.classList.remove('open');
-  navLinks.forEach(link => link.classList.remove('animate')); // reset
-});
+menuClose.addEventListener("click", ()=>{
+    mobMenu.classList.remove("open-menu")
+})
+
+
+
+
+
+
+
