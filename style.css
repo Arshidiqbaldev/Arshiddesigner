@@ -208,7 +208,7 @@ body {
   background: var(--bg-2);
   height: 100%;
   display: flex;
-  border: var(--border);
+  
   border-radius: var(--radius-2);
   flex-direction: column;
   padding: var(--padding-2);
@@ -239,13 +239,11 @@ body {
 
 .mob-menu-item {
   width: 100%;
-  color: var(--color-1);
-  font-size: var(--body-text);
+  color: var(--color-2);
+  font-size: var(--head-1);
   text-transform:capitalize;
   line-height: var(--line-height);
   font-weight: 500;
-  border-radius: 12px;
-  border: 1px solid transparent;
   cursor: pointer;
 }
 .mob-menu-item:hover {
@@ -604,7 +602,97 @@ textarea::placeholder {
   width: 100%;
 }
 
+
+
+
 /* content */
+
+/* assets content */
+
+.asset-content {
+  width: 92%;
+  max-width: 900px;
+  padding: var(--padding-1);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.assets-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+
+}
+
+.asset-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-2);
+  border-radius: var(--radius-2);
+  border: var(--border);
+  width: 100%;
+  flex-grow: 1;
+  justify-content: space-between;
+  overflow: hidden;
+  cursor: pointer;
+
+
+}
+
+.asset-card:hover {
+  background: var(--bg-1);
+  transform: scale(1.01);
+}
+
+
+.asset-img {
+  width: 100%;
+  
+}
+
+.asset-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px ;
+}
+
+
+.asset-title {
+  font-size: var(--body-text);
+  font-weight: 400;
+  color: var(--color-1);
+  text-transform: capitalize;
+}
+
+.asset-description {
+  font-size: var(--body-small);
+  font-weight: 400;
+  color: var(--color-2);
+}
+
+.asset-link {
+  width: 100%;
+  text-decoration: none;
+  background: var(--brand);
+  font-family: var(--font-family);
+  font-size: var(--body-small);
+  text-transform: var(--text-transform);
+  font-weight: 500;
+  color: var(--bg-2);
+  text-align: center;
+  padding: 10px;
+  border-radius: 14px;
+}
+
+
+
 
 @media (min-width: 786px) {
   .header {
@@ -628,6 +716,9 @@ textarea::placeholder {
     width: 100%;
   }
 
+
+
+
   .arshid {
     width: 14%;
   }
@@ -643,4 +734,20 @@ textarea::placeholder {
   .project-link {
     width: 14%;
   }
+
+/* asset */
+.asset-content {
+  width: 100%;
+
 }
+
+
+
+.asset-card {
+
+  width: 30%;
+  
+}
+
+}
+
