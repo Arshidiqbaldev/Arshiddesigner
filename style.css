@@ -243,6 +243,10 @@ body {
   border: 1px solid transparent;
   cursor: pointer;
 }
+.mob-menu-item:hover {
+  color: var(--brand);
+
+}
 
 /* content */
 
@@ -276,7 +280,6 @@ body {
   justify-content: space-between;
   gap: 10px;
   background: var(--bg-2);
-  
   border-radius: var(--radius-2);
   padding: 5px;
 }
@@ -295,7 +298,7 @@ body {
   align-items: start;
   justify-content: center;
   flex-grow: 1;
-  gap: 6px;
+  gap: 4px;
 }
 
 .name {
@@ -394,7 +397,7 @@ body {
 .social-links {
   width: auto;
   padding: 5px;
-  
+
   border-radius: var(--radius-2);
   display: flex;
   align-items: center;
@@ -405,7 +408,7 @@ body {
 
 .social-link {
   text-decoration: none;
-  width: 40px;
+  width: 34px;
   display: flex;
   align-items: center;
   justify-content: center;
