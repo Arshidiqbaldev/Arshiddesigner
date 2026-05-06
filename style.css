@@ -245,7 +245,6 @@ body {
 }
 .mob-menu-item:hover {
   color: var(--brand);
-
 }
 
 /* content */
@@ -285,7 +284,7 @@ body {
 }
 
 .arshid {
-  width: 14%;
+  width: 16%;
   aspect-ratio: 1/1;
   border-radius: 15px;
   border: var(--border);
@@ -304,7 +303,7 @@ body {
 .name {
   font-size: var(--head-4);
   color: var(--brand);
-  text-transform: var(--text-transform);
+  text-transform: capitalize;
   font-weight: 500;
   width: 100%;
 }
@@ -323,7 +322,7 @@ body {
   align-items: start;
   justify-content: center;
   gap: 20px;
-  
+
   border-radius: var(--radius-2);
   padding: var(--padding-2);
 }
@@ -611,11 +610,8 @@ textarea::placeholder {
   }
 
   .mob-menu {
-   
-    display:none;
+    display: none;
     visibility: none;
-
-
   }
 
   .menu-open {
@@ -625,6 +621,10 @@ textarea::placeholder {
   /* content */
   .content {
     width: 100%;
+  }
+
+  .arshid {
+    width: 14%;
   }
 
   .service-card {
