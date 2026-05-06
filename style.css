@@ -646,10 +646,7 @@ textarea::placeholder {
 
 }
 
-.asset-card:hover {
-  background: var(--bg-1);
-  transform: scale(1.01);
-}
+
 
 
 .asset-img {
