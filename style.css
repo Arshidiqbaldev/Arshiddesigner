@@ -160,6 +160,7 @@ body {
 
 .menu-open {
   color: var(--color-1);
+  user-select: none;
   text-decoration: none;
   font-size: var(--body-small);
   text-transform: var(--text-transform);
