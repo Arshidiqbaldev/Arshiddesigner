@@ -378,12 +378,14 @@ body {
   font-weight: 700;
   width: 100%;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .heading2 {
   font-size: var(--head-3);
   font-weight: 500;
   width: 100%;
+  text-transform: capitalize;
 }
 
 .services-list {
