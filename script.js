@@ -87,12 +87,14 @@ const menuClose = document.querySelector(".menu-close");
 const mobMenu = document.getElementById("mob-menu")
 
 
-menuOpen.addEventListener("click", ()=>{
-    mobMenu.classList.toggle("open-menu")
+
+menuOpen.addEventListener("click", () => {
+    mobMenu.classList.toggle("open-menu");
+   
 });
 
-menuClose.addEventListener("click", ()=>{
-    mobMenu.classList.remove("open-menu")
+menuClose.addEventListener("click", () => {
+    mobMenu.classList.remove("open-menu");
 })
 
 
