@@ -38,26 +38,26 @@ function applyTheme(name) {
 
 
 
-// function setTheme(mode) {
-//     if (mode === "system") {
-//         let isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+function setTheme(mode) {
+    if (mode === "system") {
+        let isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
 
-//         if (isDark) {
-//             applyTheme("dark");
+        if (isDark) {
+            applyTheme("dark");
 
 
-//         } else {
-//             applyTheme("light");
-//         }
+        } else {
+            applyTheme("light");
+        }
 
-//     }
-//     else {
-//         applyTheme("mode");
-//     }
-// }
+    }
+    else {
+        applyTheme("mode");
+    }
+}
 
-// setTheme("system");
+setTheme("system");
 
 
 
