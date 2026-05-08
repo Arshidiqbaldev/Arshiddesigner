@@ -114,7 +114,7 @@ const observer = new IntersectionObserver(function (entries) {
         }
 
     });
-}, { threshold: 0.30 });
+}, { threshold: 0.50 });
 
 const aboutElements = document.querySelectorAll(".mob-menu-item");
 
