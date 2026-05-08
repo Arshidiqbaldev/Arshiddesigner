@@ -8,11 +8,11 @@ let themes = {
     dark: {
         "--brand": "#f60900",
         "--brand-2": "#940200",
-        "--bg-1": "#161515",
-        "--bg-2": "#1d1b1b",
+        "--bg-1": "#101010",
+        "--bg-2": "#1E1E1E",
         "--color-1": "#cecece",
         "--color-2": "#a0a0a0",
-        "--border-color": "#262626"
+        "--border-color": "#f3f5f711"
     },
     light: {
         "--brand": "#f60900",
