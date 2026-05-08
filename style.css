@@ -244,13 +244,41 @@ body {
   cursor: pointer;
 }
 
+
+.mob-menu-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.mob-menu-item:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.mob-menu-item:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.mob-menu-item:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.mob-menu-item:nth-child(5) {
+  animation-delay: 1s;
+}
+
+.mob-menu-item:nth-child(6) {
+  animation-delay: 1.2s;
+}
+
+
+
+
+
+
+
+
 .mob-menu-item:hover {
   color: var(--brand);
 }
 
 .fadeUp {
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(30px);
   animation: fadeUpAnim 0.5s ease forwards;
 }
 
