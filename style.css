@@ -643,7 +643,7 @@ textarea::placeholder {
 
 .asset-content {
   width: 92%;
-  max-width: 1000px;
+  max-width: 900px;
   padding: var(--padding-1);
   min-height: 100vh;
   display: flex;
@@ -672,6 +672,14 @@ textarea::placeholder {
   overflow: hidden;
   cursor: pointer;
 }
+
+.asset-card:hover  {
+  background: var(--bg-1);
+  transform: scale(1.01);
+  
+}
+
+
 
 .asset-img {
   width: 100%;
