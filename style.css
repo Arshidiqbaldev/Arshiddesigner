@@ -642,7 +642,7 @@ textarea::placeholder {
 /* assets content */
 
 .asset-content {
-  width: 92%;
+  width: 95%;
   max-width: 900px;
   padding: var(--padding-1);
   min-height: 100vh;
