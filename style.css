@@ -96,8 +96,6 @@ body {
   width: 100%;
   align-items: center;
   justify-content: center;
- 
-
 }
 
 .menu-list {
@@ -196,12 +194,10 @@ body {
   padding: var(--padding-2);
   transition-duration: 1s;
   z-index: 99;
-  
 }
 
 .mob-menu.open-menu {
   bottom: 8%;
-
 }
 
 .menu-wrapper {
@@ -242,24 +238,28 @@ body {
   width: 100%;
   color: var(--color-2);
   font-size: var(--head-1);
-  text-transform:capitalize;
+  text-transform: capitalize;
   line-height: var(--line-height);
   font-weight: 500;
   cursor: pointer;
 }
+
 .mob-menu-item:hover {
   color: var(--brand);
 }
 
+.fadeUp {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeUpAnim 0.5s ease forwards;
+}
 
-
-
-
-
-
-
-
-
+@keyframes fadeUpAnim {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 /* content */
 
@@ -615,9 +615,6 @@ textarea::placeholder {
   width: 100%;
 }
 
-
-
-
 /* content */
 
 /* assets content */
@@ -634,13 +631,12 @@ textarea::placeholder {
   gap: 20px;
 }
 
-.assets-div{
+.assets-div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 10px;
   flex-wrap: wrap;
-
 }
 
 .asset-card {
@@ -653,16 +649,10 @@ textarea::placeholder {
   flex-grow: 1;
   overflow: hidden;
   cursor: pointer;
-
-
 }
-
-
-
 
 .asset-img {
   width: 100%;
-  
 }
 
 .asset-info {
@@ -670,25 +660,22 @@ textarea::placeholder {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 10px ;
+  padding: 10px;
   flex-grow: 1;
 }
-
 
 .asset-title {
   font-size: var(--body-text);
   font-weight: 400;
   color: var(--color-1);
   text-transform: capitalize;
- 
 }
 
 .asset-description {
   font-size: var(--body-small);
   font-weight: 400;
   color: var(--color-2);
-   flex-grow: 1;
- 
+  flex-grow: 1;
 }
 
 .asset-link {
@@ -704,9 +691,6 @@ textarea::placeholder {
   padding: 10px;
   border-radius: 14px;
 }
-
-
-
 
 @media (min-width: 786px) {
   .header {
@@ -730,9 +714,6 @@ textarea::placeholder {
     width: 100%;
   }
 
-
-
-
   .arshid {
     width: 14%;
   }
@@ -749,19 +730,12 @@ textarea::placeholder {
     width: 14%;
   }
 
-/* asset */
-.asset-content {
-  width: 100%;
+  /* asset */
+  .asset-content {
+    width: 100%;
+  }
 
+  .asset-card {
+    width: 30%;
+  }
 }
-
-
-
-.asset-card {
-
-  width: 30%;
-  
-}
-
-}
-
