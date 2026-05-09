@@ -17,8 +17,8 @@ let themes = {
     light: {
         "--brand": "#f60900",
         "--brand-2": "#940200",
-        "--bg-1": "#f7f0ef",
-        "--bg-2": "#ebe2e2",
+        "--bg-1": "#f6f6f6",
+        "--bg-2": "#eeeeee",
         "--color-1": "#252323",
         "--color-2": "#4d4d4d",
         "--border-color": "#dadada"
