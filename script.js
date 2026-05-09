@@ -21,7 +21,7 @@ let themes = {
         "--bg-2": "#eeeeee",
         "--color-1": "#252323",
         "--color-2": "#4d4d4d",
-        "--border-color": "#dadada"
+        "--border-color": "#e3e3e3"
     },
 };
 
