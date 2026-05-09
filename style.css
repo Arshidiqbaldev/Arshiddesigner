@@ -490,7 +490,7 @@ textarea {
   font-family: var(--font-family);
   font-size: var(--body-small);
   background: var(--bg-2);
-  border: none;
+  border: 1px solid transparent;
   outline: none;
 
   padding: 12px;
