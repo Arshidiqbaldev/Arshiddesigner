@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "CMGeom";
-  src: url("assets/CMGeom-Regular.woff") format('woff');
+  src: url("assets/CMGeom-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -11,10 +11,10 @@
   --brand: #f60900;
   --brand-2: #940200;
   --bg-1: #101010;
-  --bg-2: #1E1E1E;
+  --bg-2: #1e1e1e;
   --color-1: #cecece;
   --color-2: #a0a0a0;
-  --border-color:#f3f5f711;
+  --border-color: #f3f5f711;
   --font-family: "Space Grotesk", sans-serif;
   --font-family-2: "CMGeom", sans-serif;
   --radius-1: 30px;
@@ -52,7 +52,6 @@ a {
   text-decoration: none;
   color: inherit;
   line-height: none;
-
 }
 
 html {
@@ -116,15 +115,12 @@ body {
   gap: 5px;
 }
 
-
-
 .menu-item {
-  
   color: var(--color-1);
-  
+
   font-size: var(--body-small);
   text-transform: var(--text-transform);
-  padding: 12px 6px  10px 6px;
+  padding: 12px 6px 10px 6px;
   line-height: 0;
   border-radius: 12px;
   border: 1px solid transparent;
@@ -331,7 +327,6 @@ body {
   width: 16%;
   aspect-ratio: 1/1;
   border-radius: 15px;
-  border: var(--border);
 }
 
 .bio-text {
@@ -681,13 +676,10 @@ textarea::placeholder {
   cursor: pointer;
 }
 
-.asset-card:hover  {
+.asset-card:hover {
   background: var(--bg-1);
   transform: scale(1.01);
-  
 }
-
-
 
 .asset-img {
   width: 100%;
