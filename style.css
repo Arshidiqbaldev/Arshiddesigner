@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
 
+@font-face {
+  font-family: "CMGeom";
+  src: url("assets/CMGeom-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --brand: #f60900;
   --brand-2: #940200;
@@ -9,6 +16,7 @@
   --color-2: #a0a0a0;
   --border-color:#f3f5f711;
   --font-family: "Space Grotesk", sans-serif;
+  --font-family-2: "CMGeom", sans-serif;
   --radius-1: 30px;
   --radius-2: 20px;
   --squircle: squircle;
@@ -44,6 +52,7 @@ a {
   text-decoration: none;
   color: inherit;
   line-height: none;
+
 }
 
 html {
@@ -236,12 +245,12 @@ body {
 
 .mob-menu-item {
   width: 100%;
+  font-family: var(--font-family-2);
   color: var(--color-2);
   font-size: 2rem;
   text-transform: capitalize;
   line-height: var(--line-height);
-  font-weight: 500;
-  text-transform: var(--text-transform);
+  font-weight: normal;
   cursor: pointer;
 }
 
