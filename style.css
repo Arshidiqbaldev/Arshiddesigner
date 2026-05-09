@@ -361,14 +361,14 @@ body {
   align-items: start;
   justify-content: center;
   gap: 20px;
-
   border-radius: var(--radius-2);
   padding: var(--padding-2);
 }
 
 .body-text {
   font-size: var(--body-text);
-  color: var(--color-1);
+  font-weight: 400;
+  color: var(--color-2);
   line-height: var(--line-height-2);
   width: 100%;
 }
@@ -377,6 +377,7 @@ body {
   font-size: var(--body-small);
   color: var(--color-2);
   line-height: var(--line-height-2);
+  font-weight: 400;
   width: 100%;
 }
 
