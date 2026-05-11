@@ -728,19 +728,23 @@ textarea::placeholder {
 /* thanks msg */
 
 .thanks-div {
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 20px;
   text-align: center;
+  padding: var(--padding-2);
+  background: var(--bg-2);
+  border-radius: var(--radius-2);
+  
 }
 
 .thanks-msg {
   font-size: var(--head-2);
   font-weight: 500;
-  color: var(--color-1);
+  color: var(--color-2);
 }
 
 .thanks-desc{
