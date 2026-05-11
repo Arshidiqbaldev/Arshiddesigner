@@ -14,7 +14,7 @@
   --bg-2: #1e1e1e;
   --color-1: #cecece;
   --color-2: #a0a0a0;
-  --border-color: #f3f5f711;
+  --border-color: #ffffff11;
   --font-family: "Space Grotesk", sans-serif;
   --font-family-2: "CMGeom", sans-serif;
   --radius-1: 30px;
@@ -216,6 +216,7 @@ body {
   gap: 10px;
   align-items: start;
   justify-content: space-between;
+
 }
 
 .mob-nav {
