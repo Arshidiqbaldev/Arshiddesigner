@@ -738,13 +738,13 @@ textarea::placeholder {
   padding: var(--padding-2);
   background: var(--bg-2);
   border-radius: var(--radius-2);
-  
+
 }
 
 .thanks-msg {
-  font-size: var(--head-2);
+  font-size: var(--head-1);
   font-weight: 500;
-  color: var(--color-2);
+  color: var(--color-1);
 }
 
 .thanks-desc{
@@ -752,6 +752,9 @@ textarea::placeholder {
   line-height: var(--line-height-2);
   color: var(--color-2);
 }
+
+
+
 
 
 
