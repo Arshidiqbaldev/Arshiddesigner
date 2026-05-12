@@ -743,6 +743,7 @@ textarea::placeholder {
 
 .thanks-msg {
   font-size: var(--head-1);
+  line-height: var(--line-height);
   font-weight: 500;
   color: var(--color-1);
 }
