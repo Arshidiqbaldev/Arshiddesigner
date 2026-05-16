@@ -10,8 +10,8 @@ let themes = {
         "--brand-2": "#940200",
         "--bg-1": "#101010",
         "--bg-2": "#1E1E1E",
-        "--color-1": "#cecece",
-        "--color-2": "#a0a0a0",
+        "--color-1": "#e2e2e2",
+        "--color-2": "#aeaeae",
         "--border-color": "#ffffff11"
     },
     light: {
