@@ -1,8 +1,10 @@
 let root = document.documentElement;
 let lightMode = document.getElementById("lightBtn");
 let darkMode = document.getElementById("darkBtn");
-const myAudio1 = new Audio("assets/hover-effect-dich.mp3")
-const myAudio2 = new Audio("assets/click-1-effect-dich.mp3")
+const myAudio1 = new Audio("assets/hover-effect-dich.mp3");
+const myAudio2 = new Audio("assets/click-1-effect-dich.mp3");
+const myAudio3 = new Audio("assets/fish-reel-in.mp3");
+
 
 
 
@@ -95,7 +97,7 @@ const mobMenu = document.getElementById("mob-menu")
 
 menuOpen.addEventListener("click", () => {
     mobMenu.classList.toggle("open-menu");
-    myAudio1.play();
+    myAudio3.play();
 
 
 });
@@ -144,7 +146,7 @@ menuItems.forEach((i) => {
 
 
     const handleMouseEnter = function () {
-        myAudio2.play();
+        myAudio1.play();
     };
 
 
@@ -155,17 +157,3 @@ menuItems.forEach((i) => {
 
 })
 
-mobmenuItems.forEach((i) => {
-
-
-
-    const handleMouseEnter = function () {
-        myAudio2.play();
-    };
-
-
-    i.addEventListener("click", handleMouseEnter);
-
-
-
-})
