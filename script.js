@@ -1,7 +1,8 @@
 let root = document.documentElement;
 let lightMode = document.getElementById("lightBtn");
 let darkMode = document.getElementById("darkBtn");
-
+const myAudio1 = new Audio("assets/hover-effect-dich.mp3")
+const myAudio2 = new Audio("assets/click-1-effect-dich.mp3")
 
 
 
@@ -65,7 +66,7 @@ setTheme("system");
 lightMode.addEventListener("click", () => {
     applyTheme("light");
     lightMode.classList.add("active");
-
+    myAudio2.play();
     setTimeout(() => {
         darkMode.classList.remove("active");
 
@@ -76,7 +77,7 @@ lightMode.addEventListener("click", () => {
 darkMode.addEventListener("click", () => {
     applyTheme("dark");
     darkMode.classList.add("active");
-
+    myAudio2.play();
 
     setTimeout(() => {
         lightMode.classList.remove("active");
@@ -94,14 +95,14 @@ const mobMenu = document.getElementById("mob-menu")
 
 menuOpen.addEventListener("click", () => {
     mobMenu.classList.toggle("open-menu");
-
+    myAudio1.play();
 
 
 });
 
 menuClose.addEventListener("click", () => {
     mobMenu.classList.remove("open-menu");
-
+    myAudio2.play();
 })
 
 
@@ -131,4 +132,26 @@ aboutElements.forEach(el => {
 
 
 
+
+
+// sound to menu
+
+const menuItems = document.querySelectorAll(".menu-item");
+
+
+menuItems.forEach((i) => {
+
+
+
+    const handleMouseEnter = function () {
+        myAudio1.play();
+    };
+
+
+
+    i.addEventListener("mouseenter", handleMouseEnter);
+    
+
+
+})
 
