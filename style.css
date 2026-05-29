@@ -406,7 +406,7 @@ body {
 
 .heading1 {
   font-size: var(--head-1);
-  font-weight: 700;
+  font-weight: 500;
   width: 100%;
   text-align: center;
   text-transform: capitalize;
