@@ -134,24 +134,3 @@ aboutElements.forEach(el => {
 
 
 
-// sound to menu
-
-const menuItems = document.querySelectorAll(".menu-item");
-
-
-menuItems.forEach((i) => {
-
-
-
-    const handleMouseEnter = function () {
-        myAudio1.play();
-    };
-
-
-
-    i.addEventListener("mouseenter", handleMouseEnter);
-    
-
-
-})
-
