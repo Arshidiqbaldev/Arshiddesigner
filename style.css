@@ -11,8 +11,8 @@
   --brand: #f60900;
   --bg-1: #101010;
   --bg-2: #1e1e1e;
-  --color-1: #e2e2e2;
-  --color-2: #aeaeae;
+  --color-1: #ddd9cd;
+  --color-2: #a6a096;
   --border-color: #ffffff11;
   --font-family: "Space Grotesk", sans-serif;
   --font-family-2: "CMGeom", sans-serif;
@@ -101,7 +101,7 @@ body {
 
 .menu {
   display: none;
-  
+
   align-items: center;
   justify-content: center;
 
@@ -767,7 +767,7 @@ textarea::placeholder {
 
 @media (min-width: 786px) {
   .header {
-    width:100%;
+    width: 100%;
   }
 
   .menu {
@@ -790,9 +790,9 @@ textarea::placeholder {
 
 
   .bio {
-  width: 70%;
-  
-}
+    width: 70%;
+
+  }
 
   .arshid {
     width: 14%;

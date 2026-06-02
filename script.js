@@ -12,7 +12,7 @@ let themes = {
         "--bg-1": "#101010",
         "--bg-2": "#1E1E1E",
         "--color-1": "#ddd9cd",
-        "--color-2": "#b7b2a7",
+        "--color-2": "#a6a096",
         "--border-color": "#ffffff0c"
     },
     light: {
