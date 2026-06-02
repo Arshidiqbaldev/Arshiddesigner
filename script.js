@@ -8,20 +8,20 @@ const myAudio2 = new Audio("assets/click-1-effect-dich.mp3")
 
 let themes = {
     dark: {
-        "--brand": "#f60900",
+        "--brand": "#F60900",
         "--bg-1": "#101010",
         "--bg-2": "#1E1E1E",
-        "--color-1": "#e2e2e2",
-        "--color-2": "#aeaeae",
-        "--border-color": "#ffffff11"
+        "--color-1": "#ddd9cd",
+        "--color-2": "#b7b2a7",
+        "--border-color": "#ffffff0c"
     },
     light: {
-        "--brand": "#f60900",
-        "--bg-1": "#f6f6f6",
-        "--bg-2": "#eeeeee",
-        "--color-1": "#252323",
-        "--color-2": "#4d4d4d",
-        "--border-color": "#0000000f"
+        "--brand": "#F60900",
+        "--bg-1": "#efeadc",
+        "--bg-2": "#eae2d2",
+        "--color-1": "#353430",
+        "--color-2": "#47453f",
+        "--border-color": "#0000000c"
     },
 };
 
