@@ -118,7 +118,6 @@ body {
 
 .menu-item {
   color: var(--color-1);
-
   font-size: var(--body-small);
   text-transform: var(--text-transform);
   padding: 14px 6px 12px 6px;
@@ -127,6 +126,18 @@ body {
   border: 1px solid transparent;
   cursor: pointer;
 }
+
+/* active */
+
+.menu-item-active {
+  color: var(--brand);
+  border-color: var(--border-color);
+}
+
+
+
+
+
 
 .menu-item:hover {
   color: var(--brand);
@@ -292,6 +303,15 @@ body {
     transform: translateY(0);
   }
 }
+
+
+/* active */
+
+
+.mob-menu-item-active {
+  color: var(--brand);
+}
+
 
 /* content */
 
