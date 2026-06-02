@@ -9,7 +9,6 @@
 
 :root {
   --brand: #f60900;
-  --brand-2: #940200;
   --bg-1: #101010;
   --bg-2: #1e1e1e;
   --color-1: #e2e2e2;
@@ -86,24 +85,26 @@ body {
   width: 95%;
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   justify-content: space-between;
   border-radius: var(--radius-2);
   background: var(--bg-2);
-  padding: 8px;
+  padding: 6px;
   backdrop-filter: blur(4px);
   position: fixed;
   bottom: 2%;
   left: 50%;
   transform: translateX(-50%);
+  max-width: 500px;
   z-index: 100;
 }
 
 .menu {
   display: none;
-  width: 100%;
+  
   align-items: center;
   justify-content: center;
+
 }
 
 .menu-list {
@@ -120,7 +121,7 @@ body {
 
   font-size: var(--body-small);
   text-transform: var(--text-transform);
-  padding: 12px 6px 10px 6px;
+  padding: 14px 6px 12px 6px;
   line-height: 0;
   border-radius: 12px;
   border: 1px solid transparent;
@@ -166,7 +167,7 @@ body {
   text-decoration: none;
   font-size: var(--body-small);
   text-transform: var(--text-transform);
-  padding: 8px 8px;
+  padding: 10px 8px 8px 8px;
   border-radius: var(--radius-2);
   border: var(--border);
   cursor: pointer;
@@ -443,7 +444,6 @@ body {
 .social-links {
   width: auto;
   padding: 5px;
-
   border-radius: var(--radius-2);
   display: flex;
   align-items: center;
@@ -767,7 +767,7 @@ textarea::placeholder {
 
 @media (min-width: 786px) {
   .header {
-    width: auto;
+    width:100%;
   }
 
   .menu {
@@ -787,6 +787,12 @@ textarea::placeholder {
   .content {
     width: 100%;
   }
+
+
+  .bio {
+  width: 70%;
+  
+}
 
   .arshid {
     width: 14%;
