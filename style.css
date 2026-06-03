@@ -764,6 +764,14 @@ textarea::placeholder {
   padding: var(--padding-2);
   background: var(--bg-2);
   border-radius: var(--radius-2);
+  position: relative;
+
+}
+
+.my-emoji{
+
+  width: 80px;
+  
 
 }
 
