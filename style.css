@@ -844,9 +844,7 @@ textarea::placeholder {
   }
 
   /* asset */
-  .asset-content {
-    width: 100%;
-  }
+ 
 
   .asset-card {
     width: 30%;
